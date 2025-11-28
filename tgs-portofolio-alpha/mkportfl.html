@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #24292e;
+      color: #ffffff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #2b3137;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 10px 0;
+    }
+    .navbar ul {
+      list-style: none;
+      margin: 10px;
+      padding: 0;
+      display: flex;
+      justify-content: right;
+      gap: 10px;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 30px auto;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* Contact */
+    #contactme ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    #contactme a {
+      text-decoration: none;
+      color: #363636;
+      font-weight: 600;
+    }
+      img { border-radius: 15px; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#portofolio">Portofolio</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contactme">Contact Me</a></li>
+    </ul>
+  </div>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Perkenalkan nama saya Muhammad Mukhlis Abdillah a.k.a Mukhlis</p>
+    <img src="mklol.jpg" alt="Placeholder" width="300">
+  </section>
+
+  <section id="aboutme">
+    <h2>About Me</h2>
+    <p>Saya seorang programmer dengan minat dibidang pengembangan perangkat lunak berupa aplikasi mobile.</p>
+    <p>Mau coba Arch</p>
+  </section>
+
+  <section id="portofolio">
+    <h2>Project</h2>
+    <ul style="text-align:left; max-width:400px; margin:auto;">
+      <li>sadly, none</li>
+      <li>sadly, none</li>
+      <li>sadly, none</li>
+      <li>sadly, none</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="file1" alt="Image 1">
+      <img src="file2" alt="Image 2">
+      <img src="file3" alt="Image 3">
+      <img src="file4" alt="Image 4">
+    </div>
+  </section>
+
+  <section id="contactme">
+    <h2>Contact Me</h2>
+    <p>Email: abdillahmukhlis42@gmail.com</p>
+    <p>Phone: +62 823-xxxx-xxxx</p>
+    <p>Address: Buduran</p>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Github</a></li>
+    </ul>
+  </section>
+</body>
+</html>
